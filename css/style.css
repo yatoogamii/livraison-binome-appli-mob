@@ -2,3 +2,16 @@
 .fa-connectdevelop {
   font-size: 3rem;
 }
+
+.section__article-phone-img {
+  background-color: red;
+}
+
+.section__article-phone-img {
+  background-color: blue;
+  }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
