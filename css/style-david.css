@@ -1,0 +1,30 @@
+/* +++-[ HEADER ]-+++++++++++++++++++++++++++++++++++++++ */
+.logo-david {
+	height: 150px;
+	padding: 15px;
+}
+
+.nav-top-david {
+	height: 150px;
+	display: flex;
+	flex-flow: row;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+}
+
+
+/* +++-[ FOOTER ]-+++++++++++++++++++++++++++++++++++++++ */
+.footer-david {
+	display: flex;
+	padding: 15px;
+}
+
+.menu-footer-david {
+	height: 220px;
+}
+
+.address-david {
+	font-size: 0.8rem;
+	height: 100px;
+}
+
