@@ -4,14 +4,11 @@
 }
 
 .section__article-phone-img {
-  background-color: red;
+  background-color: rgba(255, 84, 78, 0.4);
 }
-
-.section__article-phone-img {
-  background-color: blue;
-  }
 
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
 }
+
