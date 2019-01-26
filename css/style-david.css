@@ -1,5 +1,5 @@
 /* +++-[ HEADER ]-+++++++++++++++++++++++++++++++++++++++ */
-.title-david {
+.page-title {/*title-david*/
 	margin: 30px 0 50px 0;
 	text-align: center;
 }
@@ -29,21 +29,25 @@
 	background-color: rgba(30, 205, 147, 0.5);
 	position: relative;
 
-	margin-right: -5px;
-}
+	margin-right: -7px;
 
-.fig1:hover {
+}
+/*
+.fig1 {
 	color: black;
+	opacity: 0;
 }
-
+*/
 .figcap1 {
 	position: absolute;
 	left: 50px;
 	bottom: 100px;
+	opacity: 0;
 }
 
-.figcap1:hover {
-	visibility: visible;
+.fig1, .figcap1:hover {
+	opacity: 1;
+	color: black;
 }
 
 .fig2 {
@@ -56,7 +60,7 @@
 	font-weight: bold;
 	background-color: rgba(30, 205, 147, 0.5);
 	position: relative;
-	margin-left: -5px;
+	margin-left: -7px;
 }
 
 .fig2:hover {
@@ -81,7 +85,7 @@
 	background-color: rgba(30, 205, 147, 0.5);
 	position: relative;
 	margin-right: -52px;
-	margin-top: 23px;
+	margin-top: 26px;
 }
 
 .fig3:hover {
@@ -106,7 +110,7 @@
 	background-color: rgba(30, 205, 147, 0.5);
 	position: relative;
 	margin-left: -52px;
-	margin-top: 23px;
+	margin-top: 26px;
 }
 
 .fig4:hover {
@@ -132,7 +136,7 @@
 	position: relative;
 
 	margin-top: 29px;
-	margin-right: -5px;
+	margin-right: -7px;
 }
 
 .fig5:hover {
@@ -158,7 +162,7 @@
 	position: relative;
 
 	margin-top: 29px;
-	margin-left: -5px;
+	margin-left: -7px;
 }
 
 .fig6:hover {
@@ -258,7 +262,7 @@
 
 
 /* +++-[ DIVERS ]-+++++++++++++++++++++++++++++++++++++++ */
-.marge-david {
+.margin-before-footer {/*marge-david*/
 	margin: 150px;
 }
 
@@ -267,20 +271,20 @@
 }
 
 /* +++-[ FOOTER ]-+++++++++++++++++++++++++++++++++++++++ */
-.footer-david {
+.page-footer {/* footer-david*/
 	display: flex;
 	padding: 15px;
 }
 
-.input-david {
+.input__width-10 {/* input-david*/
 	width: 10px;
 }
 
-.menu-footer-david {
+.page-footer__menu {/* menu-footer-david*/
 	height: 220px;
 }
 
-.address-david {
+.page-footer__address {/* address-david*/
 	font-size: 0.8rem;
 	height: 100px;
 }
