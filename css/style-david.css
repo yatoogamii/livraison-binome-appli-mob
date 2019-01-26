@@ -276,16 +276,11 @@
 	padding: 15px;
 }
 
-.input__width-10 {/* input-david*/
+.input__width-w10 {/* input-david*/
 	width: 10px;
 }
-
-.page-footer__menu {/* menu-footer-david*/
-	height: 220px;
-}
-
 .page-footer__address {/* address-david*/
 	font-size: 0.8rem;
 	height: 100px;
 }
-
+:%s/input-david/input__width-w10/gc
