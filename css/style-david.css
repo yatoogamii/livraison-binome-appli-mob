@@ -1,5 +1,5 @@
 /* +++-[ HEADER ]-+++++++++++++++++++++++++++++++++++++++ */
-.page-title {/*title-david*/
+.page-title {
 	margin: 30px 0 50px 0;
 	text-align: center;
 }
@@ -262,7 +262,7 @@
 
 
 /* +++-[ DIVERS ]-+++++++++++++++++++++++++++++++++++++++ */
-.margin-before-footer {/*marge-david*/
+.margin-before-footer {
 	margin: 150px;
 }
 
@@ -271,16 +271,15 @@
 }
 
 /* +++-[ FOOTER ]-+++++++++++++++++++++++++++++++++++++++ */
-.page-footer {/* footer-david*/
+.page-footer {
 	display: flex;
 	padding: 15px;
 }
 
-.input__width-w10 {/* input-david*/
+.input__width-w10 {
 	width: 10px;
 }
-.page-footer__address {/* address-david*/
+.page-footer__address {
 	font-size: 0.8rem;
 	height: 100px;
 }
-:%s/input-david/input__width-w10/gc
